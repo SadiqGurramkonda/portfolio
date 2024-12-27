@@ -1,0 +1,330 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5.4rem 0;
+    margin-bottom: 2rem;
+}
+
+.title{
+    min-width: 18rem
+}
+
+.main-nav-list{
+    display: flex;
+    /* justify-content: center; */
+    gap: 8rem;
+
+    list-style: none;
+    font-size: 1.8rem;
+}
+
+.section-about{
+    margin-bottom: 4.8rem;
+}
+
+
+.about-text{
+    font-size: 1.8rem;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+.about-heading{
+    border-bottom: 0.3rem solid #999;
+}
+
+.section-projects{
+    margin: 5.4rem auto;
+}
+
+
+.project-content{
+    box-shadow: 0 2.4rem 4.8rem rgba(0,0,0,0.1);
+    margin: 5.4rem 0;
+    overflow: hidden;
+    max-width: 55rem;
+}
+
+
+
+.project-image{
+    
+    transition: transform 2s ease-out; /* Transform property transitions over 2 seconds */
+    object-fit: cover; 
+    height: 100%; /* Full height of the parent container */
+    max-width: 100%; /* Full width of the parent container */
+}
+
+.project-image:hover{
+    transform: scale(1.25);
+}
+
+.project-card{
+    overflow: hidden;
+    position: relative;
+    /* border: 5px solid #000; */
+    height: 35rem;
+    border-radius: 0.2rem;
+}
+
+.project-cards{
+    margin: 0 auto;
+}
+
+
+.project-title{
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    padding: 0.8rem 1.4rem;
+    background-color: #fa5252;
+    color: #eee;
+    font-size: 1.8rem;
+    border-radius: 0.4rem;
+}
+
+.section-exeprience{
+    margin-bottom: 12.6rem;
+}
+
+.head-experience{
+    border-bottom: 0.3rem solid #333;
+}
+
+.exp{
+    margin-bottom: 4rem;
+}
+
+.experience-list-item{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+}
+
+.experience-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    padding: 2.4rem 4.8rem;
+    box-shadow: 0 2.4rem 4.8rem rgba(0,0,0,0.1);
+    max-width: auto;
+    /* margin-top: 3rem; */
+}
+
+.experience-year{
+
+    /* display: flex;
+
+    justify-content: flex-start; */
+
+    position: absolute;
+    top: -6rem;
+    left: 0;
+
+    font-size: 5.2rem;
+    font-weight: 800;
+    color: #ddd;
+    
+    margin-bottom: 2.4rem;
+}
+
+.experience-list-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    max-width: 70rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+
+.experience-role{
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 1.0rem;
+}
+
+.experience-company-name{
+    color: #888;
+    font-size: 1.6rem;
+    margin-bottom: 2.4rem;
+}
+
+.experience-text{
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+
+.main-nav-link:link,:visited{
+    color: #444;
+    text-decoration: none;
+
+    transition: all 0.3s;
+}
+
+.main-nav-link a:hover,:active{
+    color: #000;
+}
+
+
+.circle{
+    height: 24px;
+    width: 24px;
+    border-radius: 50px;
+    background-color: #66a80f;
+    margin-top: -1.2rem;
+    z-index: 10;
+}
+
+.line{
+    width: 0.8rem;
+    height: 14rem;
+    background-color: #eee;
+    border-radius: 30px;
+    margin-top: -1rem;
+    z-index: 9;
+}
+
+
+.section-footer{
+    border-top: 3px solid #eee;
+
+}
+
+.footer-content{
+
+    display: grid;
+    grid-template-columns: 1fr auto;
+    column-gap: 4.4rem;
+    padding: 3.2rem 0rem;
+}
+
+.copyrights{
+    font-size: 1.6rem;
+    color: #555;
+    font-weight: 400;
+}
+
+
+
+.dev{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #222;
+}
+
+.dev a{
+    text-decoration: none;
+    color: #333;
+    padding-bottom: 0.4rem;
+    border-bottom: 2px solid #ddd;
+    transition: all 0.3s;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    width: 4rem;
+
+    margin-right: 3rem;
+    transition: all 0.3s ease-out;
+}
+
+/* .contacts:nth-child(3){
+    margin-right: 0;
+} */
+
+.contact:link,
+.contact:hover{
+    background-color: #ced4da;
+    border-radius: 30rem;
+}
+
+
+.contact-icon{
+    height: 2.4rem;
+    width: 2.4rem;
+    fill: #444;
+}
+
+.contact-icon:hover{
+    fill: #000;
+}
+
+
+
+.skill-image{
+    max-width: 40%;
+    object-fit: contain;
+}
+
+.skills{
+    max-width: 100rem;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+.skill-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #eee; */
+    transition: all 0.2s ease-out;
+    padding: 3rem 0;
+    /* border: 1px solid #eee;   */
+
+    
+}
+
+
+.skill-card:active,
+.skill-card:hover{
+    background-color: #f8f9fa;
+    box-shadow: 0 0.2rem 0.3rem 0 rgba(0,0,0,0.3);
+    /* border: 2px solid #eee;   */
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 18rem;
+}
+
+.main-nav{
+    margin-left: 8rem;
+}
+
+.footer-contacts{
+    display: flex;
+}
+
+.btn-mobile-nav{
+    border: none;
+    background: none;
+    cursor: pointer;
+
+    display: none;
+}
+
+.icon-nav{
+    color: #000;
+    height: 3.2rem;
+    width: 3.2rem;
+}
+
+
+
+

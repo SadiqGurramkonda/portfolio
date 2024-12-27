@@ -1,0 +1,4 @@
+I've been coding in React, NextJS, Angular, Node.js, Express, MongoDB, MySQL, Tailwind etc to name a few,
+as a highly motivated and results-driven MERN stack  I have a proven track record of delivering efficient and scalable web applications. My expertise includes designing, implementing, and maintaining full-stack solutions using MongoDB, Express.js, React, and Node.js. I excel in problem-solving, optimizing application performance, and ensuring a seamless user experience. With a keen eye for detail and a passion for staying up-to-date with the latest web development trends, I am dedicated to contributing my technical proficiency and innovation to drive project success.
+
+Possess 2.8 years of experience as a MEAN stack developer, demonstrating expertise in developing robust web applications.

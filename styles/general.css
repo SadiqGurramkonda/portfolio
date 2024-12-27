@@ -1,0 +1,146 @@
+/*
+
+--- 01 TYPOGRAPHY SYSTEM
+
+- Font sizes (px):
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+-Font weight:
+default: 400
+Meduim: 500
+semi bold: 600
+Bold: 700
+
+- Line-height:
+default:1
+small: 1.05
+paragraph-line-height: 1.6
+
+- Letter-spacing 
+-0.5px
+-0.75px
+paragaraph
+
+
+--- 02 COLORS   
+
+- Primary: #e67e22
+- Tints:
+- Shades:
+- Accents:
+- Greys:
+#555
+#333
+
+03---> images
+04---> icons
+
+--- 05 SHADOWS
+
+--- 06 BORDER RADIUS
+
+--- 07 WHITE SPACE
+
+
+
+
+ */
+
+
+
+
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* font-size: 10px; */
+    /* 10px / 16px = 0.625 = 62.5% */
+    /* Percentage of user's browser font-size setting */
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: "rubik", sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #444;
+    overflow-x: hidden;
+    
+}
+
+.header{
+    position: relative;
+}
+
+.container {
+    max-width: 140rem;
+    margin: 0 auto;
+    padding: 1rem 3.2rem;
+    /* background-color: #eee; */
+
+}
+
+.heading-name{
+    color: #000;
+    font-weight: 700px;
+    font-size: 1.8rem;
+    margin-bottom: 0.8rem;
+}
+
+.heading-primary{
+    font-size: 3.6rem;
+    font-weight: 600;
+    margin-bottom: 2.8rem;
+    color: #000;
+}
+
+
+.role{
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.grid{
+    display: grid;
+    align-items: center;
+    gap: 2.8rem;
+}
+
+.grid-2-cols{
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-5-cols{
+
+    display: grid;
+    row-gap: 1.5rem;
+    grid-template-columns: repeat(5, 1fr);
+
+    justify-items: center;
+    align-items: end;
+}
+
+.section-techstack{
+    margin: 6.8rem 0;
+}
+
+.btn{
+    border: none;
+    background: none;
+}
+
+
+.icon-nav[name="close-outline"]{
+        display: none;
+    }
+
+
+
+
+
+
+
